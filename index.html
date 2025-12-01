@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhoshi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32bd179c7b.js" crossorigin="anonymous"></script>
+    <!-- GSAP Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/imagesantho.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about ">About</a></li>
+                    <li><a href="#services">Area interested</a></li>
+                    <li><a href="#Internship">Internship</a></li>
+                    <li><a href="#portfolio">My Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>CS Student</p>
+                <h1>hii, I'm <span>Santhoshi</span> </h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/santho.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitile">About me</h1>
+                    <p><br>Hi, I'm Santhoshi, and I'm currently pursuing M.Sc. Computer Science student passionate about technology.I’m interested in software and web development, with a love for creative problem-solving.I enjoy turning ideas into real-world, user-friendly applications.Always eager to learn and grow through challenging projects </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                        <div class="tab-links" onclick="opentab('experience')">Project</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li style="list-style-type: square;" ><span><h2>Python</h2></span><br>Python is a simple, powerful language used for web, software, and data science.</li>
+                            <li style="list-style-type: square;"><span><h2>JavaScrip</h2></span><br>JavaScript is a lightweight language for web interactivity.</li>
+                            <li style="list-style-type: square;"><span><h2>UI/UX</h2></span><br>UI/UX is the design of a product’s look (UI) and feel (UX) to enhance user experience.
+</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li style="list-style-type: square;"><span><h2>Truth or Dare</h2></span><br>Using HTML,CSS and JavaScript.<br><i><h6>Duration 2 months</h6></i></li>
+                            <li style="list-style-type: square;"><span><h2>Memory Matching Game</h2></span><br>Using Python <br><i><h6>Duration 3 months</h6></i></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li style="list-style-type: square;"><span><h3>2020-2021</h3></span><br>HSC</li>
+                            <li style="list-style-type: square;"><span><h3>2021-2024</h3></span><br>BSc.Computer Science</li>
+                            <li style="list-style-type: square;"><span><h3>2024- present</h3></span><br>MSc.Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------------services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Area interested</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <h4>Frontend Development</h4>
+                    <p>Web development is the process of building and maintaining websites or web applications that run on the internet. It involves both the **frontend**, which is the visual part users interact with (using HTML, CSS, JavaScript), and the **backend**, which handles the behind-the-scenes logic, databases, and servers (using languages like Python, Node.js, PHP, etc.). Web developers work to create fast, responsive, and user-friendly websites that function smoothly across different devices and browsers. The goal of web development is to build digital experiences that meet users’ needs and support a business or personal goal online. </p>
+                    <a href="https://builtin.com/software-engineering-perspectives/web-development" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design refers to the process of creating digital products that are both visually appealing and easy to use. UI (User Interface) design focuses on the look and feel of a product, including the layout, colors, buttons, icons, and overall visual elements that users interact with. UX (User Experience) design, on the other hand, focuses on the user's journey and how smoothly they can navigate through a website or app. It involves understanding user behavior, designing efficient workflows, and ensuring a satisfying and intuitive experience. Together, UI/UX design aims to create engaging, user-friendly interfaces that enhance both functionality and aesthetic appeal.</p>
+                    <a href="https://www.geeksforgeeks.org/blogs/difference-between-ui-and-ux-design/" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-apple-whole"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Frontend Development is the part of web development that focuses on creating the visual and interactive elements of a website or web application—the parts users see and use directly. It involves writing code using languages like HTML for structure, CSS for styling, and JavaScript for interactivity. A frontend developer is responsible for making sure the website looks good on all devices, loads quickly, and responds smoothly to user actions like clicking buttons or submitting forms. They often work with tools and frameworks like React, Bootstrap, or Tailwind CSS to build modern, responsive user interfaces.</p>
+                    <a href="https://www.geeksforgeeks.org/blogs/front-end-development/" target="_blank">Learn more</a>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+<!-- ------------------------intership---------------- -->
+<div id="Internship">
+    <div class="container">
+        <h1 class="sub-title">Internship</h1>
+        <div class="services-list">
+            <div class="Internship-list">
+                <h2>Twilight IT Solution</h2>
+                <h4>Python Intern</h4>
+                <p>Automated small data processing tasks using Python scripts and learned backend fundamentals and Testing.</p>
+                <p class="duration"><i>Duration 40 days</i></p>
+            </div>
+            <div class="Internship-list">
+                <h2>Askan Technology</h2>
+                <h4>Web Development Intern</h4>
+                <p>Designed and deployed static web pages for internalprojects.
+</p>
+                <p class="duration"><i>Duration 30 days</i></p>
+            </div>
+            <div class="Internship-list">
+                <h2>Ari-va Technosoft</h2>
+                <h4>Software Development Intern (.NET)</h4>
+                <p>Worked on building and maintaining applications using C#, .NET, and related tools.</p>
+                <p class="duration"><i>Duration 10 days</i></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------portfolio--------------------- -->
+<div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Certificates</h1>
+      <div class="work-list">
+        <div class="work" onclick="openModal('images/Basics of python InfosysSpringBoard.png')">
+          <img class="imgs" src="images/Basics of python InfosysSpringBoard.png" alt="Basics of Python">
+          <div class="layer">
+            <h3>Basics of Python</h3>
+            <p>Python is a beginner-friendly programming language known for its clear syntax and versatility. It’s used for web development, automation, data analysis, and more.</p>
+          </div>
+        </div>
+
+        <div class="work" onclick="openModal('images/Programming Concepts in Python InfosysSpringBoard.png')">
+          <img class="imgs" src="images/Programming Concepts in Python InfosysSpringBoard.png" alt="Programming Concepts">
+          <div class="layer">
+            <h3>Programming Concepts in Python</h3>
+            <p>Python covers key programming concepts like variables, loops, functions, and conditionals. It also supports object-oriented, procedural, and functional programming styles.</p>
+          </div>
+        </div>
+
+        <div class="work" onclick="openModal('images/Getting Starting with MongoDB Atlas.png')">
+          <img class="imgs" src="images/Getting Starting with MongoDB Atlas.png" alt="MongoDB Atlas">
+          <div class="layer">
+            <h3>Getting Started with MongoDB Atlas</h3>
+            <p>MongoDB Atlas is a cloud-based NoSQL database service that simplifies deployment, management, and scaling of databases for modern applications.</p>
+          </div>
+      </div>
+      <div class="work" onclick="openModal('images/javascript.png')">
+            <img src="images/javascript.png" alt="">
+            <div class="layer">
+                <h3>JavaScript</h3>
+                <p>JavaScript is a programming language used to make websites interactive and dynamic.Together with HTML and CSS, it brings websites to life.</p>
+
+            </div>
+        </div>
+        <div class="work" onclick="openModal('images/AI Fundamental IBM.png')">
+            <img src="images/AI Fundamental IBM.png" alt="">
+            <div class="layer">
+                <h3>AI Fundamental</h3>
+                <p>Artificial Intelligence (AI) Fundamentals focus on teaching how machines can think, learn, and make decisions like humans.It includes core concepts such as machine learning, neural networks, and data processing.</p>
+                
+            </div>
+        </div>
+        <div class="work" onclick="openModal('images/SOAR - AI to Aspire Skill_India.png')">
+            <img src="images/SOAR - AI to Aspire Skill_India.png" alt="">
+            <div class="layer">
+                <h3>SOAR - AI to Aspire</h3>
+                <p>SOAR – AI to Aspire is a Skill India program designed to build foundational knowledge of Artificial Intelligence.It helps learners understand basic AI concepts, digital skills, and how AI is used in real-world applications.</p>
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="work-list2">
+        
+        
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+<!-- ------------------contact------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>santhoshi@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>8998910684</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/santhoshi-s-448262289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp" target="_blank"></i></a>
+                    <a href="https://github.com/SanthoshiSelvamani" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                <!-- <a href="images/images7.jpg" download class="btn btn2">Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Thank you  <i class="fa-solid fa-heart"></i> elit.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+    
+</script>    
+<form name="submit-to-google-sheet">
+  <button type="submit"></button>
+</form>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyvOF_ZFDlxvWLTkmw5wC-0MsrG5H-ohB2M-Y42kBf0FUb_OuNRRzDNX3W6gF_tSiwbqA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000 )
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  <script>
+    function openModal(imageSrc) {
+      const modal = document.getElementById("imageModal");
+      const modalImg = document.getElementById("modalImage");
+      modal.style.display = "block";
+      modalImg.src = imageSrc;
+    }
+
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+
+    // Close modal if clicked outside the image
+    window.onclick = function(event) {
+      const modal = document.getElementById("imageModal");
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  
+  <script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // HEADER TEXT ANIMATION
+  gsap.from(".header-text p", {
+    opacity: 0,
+    y: -30,
+    duration: 1
+  });
+
+  gsap.from(".header-text h1", {
+    opacity: 0,
+    y: 40,
+    duration: 1,
+    delay: 0.5
+  });
+
+  // NAVBAR ANIMATION
+  gsap.from("nav ul li", {
+    opacity: 0,
+    y: -20,
+    duration: 0.8,
+    stagger: 0.15
+  });
+
+  // ABOUT IMAGE & TEXT
+  gsap.from(".about-col-1 img", {
+    scrollTrigger: {
+      trigger: ".about-col-1 img",
+      start: "top 80%"
+    },
+    opacity: 0,
+    x: -70,
+    duration: 1.2
+  });
+
+  gsap.from(".about-col-2", {
+    scrollTrigger: {
+      trigger: ".about-col-2",
+      start: "top 85%"
+    },
+    opacity: 0,
+    x: 70,
+    duration: 1.2
+  });
+
+  // SERVICES CARDS
+  gsap.from(".services-list div", {
+    scrollTrigger: {
+      trigger: ".services-list",
+      start: "top 85%"
+    },
+    opacity: 0,
+    y: 60,
+    duration: 1.2,
+    stagger: 0.3
+  });
+
+  // INTERNSHIP CARDS
+  gsap.from("#Internship .Internship-list", {
+    scrollTrigger: {
+        trigger: "#Internship",
+        start: "top 80%",
+    },
+    opacity: 0,
+    y: 50,
+    stagger: 0.2,
+    duration: 1
+});
+
+  // PORTFOLIO CARDS
+  gsap.from(".work", {
+    scrollTrigger: {
+      trigger: ".work-list",
+      start: "top 85%"
+    },
+    opacity: 0,
+    scale: 0.8,
+    duration: 1,
+    stagger: 0.2
+  });
+
+  // CONTACT SECTION
+  gsap.from(".contact-left", {
+    scrollTrigger: {
+      trigger: ".contact-left",
+      start: "top 85%"
+    },
+    opacity: 0,
+    x: -60,
+    duration: 1.2
+  });
+
+  gsap.from(".contact-right", {
+    scrollTrigger: {
+      trigger: ".contact-right",
+      start: "top 85%"
+    },
+    opacity: 0,
+    x: 60,
+    duration: 1.2
+  });
+</script>
+
+
+</body>
+</html>
